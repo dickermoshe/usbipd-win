@@ -25,7 +25,7 @@ static partial class Wsl
     const string InstallDistributionUrl = "https://learn.microsoft.com/windows/wsl/basic-commands#install";
     const string SetWslVersionUrl = "https://learn.microsoft.com/windows/wsl/basic-commands#set-wsl-version-to-1-or-2";
 
-    static readonly string WslPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.System), "wsl.exe");
+    static readonly string WslPath = Path("C:\Users\dicke\AppData\Local\Microsoft\WindowsApps\wsl.exe");
 
     const string WslMountPoint = "/var/run/usbipd-win";
 
